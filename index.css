@@ -68,9 +68,15 @@ header #branding h1{
 	margin: 0;
 }
 
+header img{
+	margin-left: 18%;
+	margin-top: 0;
+
+}
 header nav{
 	float:right;
 	margin-top: 10px;
+	margin-right: 0;
 }
 
 header .highlight, header .current a{
@@ -195,7 +201,13 @@ footer{
 		text-align: center;
 		width:100%;
 	}
+	header img{
+		float:none;
+		margin-left: 35%;
+		margin-right: ;
+		width:60px height:60px;
 
+	}
 	header{
 		padding-bottom: 20px;
 	}
