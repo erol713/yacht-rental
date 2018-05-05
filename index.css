@@ -399,10 +399,10 @@ footer{
 
 
 	background:url('photos/bckg1.jpg') -500px -90px;
-	
-	
-	
-    background-attachment: scroll;
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     
 
 	}	
