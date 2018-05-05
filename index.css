@@ -401,9 +401,8 @@ footer{
 	background:url('photos/bckg1.jpg') -500px -90px;
 	
 	
-	background-attachment: fixed;
-    
-    background-repeat: no-repeat;
+	
+    background-attachment: scroll;
     
 
 	}	
