@@ -377,10 +377,11 @@ footer{
 @media(max-width: 768px){
 	header #branding, 
 	header nav,
+	header nav a,
 	header nav li,
 	#newsletter h1,
 	#newsletter form,
-	.social-media,
+	
 	#boxes .box, .box2, 
 	article#main-col,
 	aside#sidebar{
@@ -395,15 +396,58 @@ footer{
 	    margin-right: auto;
 	}
 
-	.social-media{
+	aside#sidebar{
+		float:none;
+		text-align: justify;
+		width:95%;
+		margin-left: 15px;
+	}
 
-		left:0;
+	article#main-col{
+		float:none;
+		text-align: justify;
+		width:95%;
+		margin-left: 15px;
+	}
+
+
+	#boxes .box img{
+		margin: 0 auto;
+		width:100%;
 
 	}
 
-	#slika{
-		background-size: 1501px;
+	#boxes .box2 img{
+
+		margin: 0 auto;
+		width:100%;
+
 	}
+
+
+	#boxes .box{
+
+		border: none;
+		width: 80%;
+		text-align: justify;
+		margin-left: 15px;
+		margin-right: 0;
+
+
+	}
+
+
+	#boxes .box2{
+
+		
+		width: 80%;
+		text-align: justify;
+		margin-left: 30px;
+		margin-right: 0;
+
+
+	}
+	
 
 	header{
 		padding-bottom: 20px;
@@ -413,12 +457,7 @@ footer{
 		margin-top:25px;
 		
 	}
-	#showcase p{
-		
-		
-	}
-
-
+	
 
 	#newsletter{
 
@@ -439,6 +478,13 @@ footer{
 
 	}
 	
+
+	.social-media a{
+
+		width:15px;
+		font-size: 15px;
+
+	}
 
 
 }
