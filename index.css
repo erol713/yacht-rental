@@ -304,7 +304,7 @@ nav a:hover{
 	float:left;
 	text-align: justify;
 	width:30%;
-	padding: 23px;
+	padding: 15px;
 	border-right: 1px solid #36A6B4;
 	color: #FFFFFF;
 }
@@ -398,17 +398,13 @@ footer{
 	#slika{
 
 
-	background:url('photos/bckg2.jpg') ;
+		background:url('photos/bckg1.jpg') -600px;
+ 
 	
-    background-position: center;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-
-    background-size: 700px;
-	
-	
-
+		background-attachment: fixed;
+	   
+	    background-repeat: no-repeat;
+	    background-size: cover;
 
 	}	
 
