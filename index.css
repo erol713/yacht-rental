@@ -404,9 +404,9 @@ background: url('photos/bckg1.jpg') no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;
-    height: 100%;
-    max-width: 150px;
+    background-size: 150% 130%;
+    
+    
     overflow: hidden;
 	}	
 
