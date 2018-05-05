@@ -406,6 +406,7 @@ background: url('photos/bckg1.jpg') no-repeat center center fixed;
     -o-background-size: cover;
     background-size: cover;
     height: 100%;
+    max-width: 150px;
     overflow: hidden;
 	}	
 
