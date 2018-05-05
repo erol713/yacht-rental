@@ -398,11 +398,15 @@ footer{
 	#slika{
 
 
-	background:url('photos/bckg1.jpg') -500px -90px;
-	background-attachment: fixed;
-	background-repeat: no-repeat;
+	
     
-
+background: url('photos/bckg1.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
 	}	
 
 
