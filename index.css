@@ -389,6 +389,26 @@ footer{
 		text-align: center;
 		width:100%;
 	}
+
+	#showcase h1{
+
+		font-size: 250%;
+	}
+
+	#slika{
+
+
+	background:url('photos/bckg1.jpg') -500px -90px;
+	
+	
+	background-attachment: fixed;
+    
+    background-repeat: no-repeat;
+    
+
+	}	
+
+
 	#logo{
 		float: none;
 		display: block;
