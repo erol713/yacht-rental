@@ -374,7 +374,7 @@ footer{
 
 /* Media queries**/
 
-@media(max-width: 768px){
+@media only screen and(max-width: 768px){
 	header #branding, 
 	header nav,
 	header nav a,
@@ -398,10 +398,13 @@ footer{
 	#slika{
 
 
-	    background-attachment: fixed;
-	    background-position: center;
+	    
+		background:url('photos/bckg1.jpg') -150px;
+ 
+		background-size: 180% 100%;
+		background-attachment: fixed;
+	   
 	    background-repeat: no-repeat;
-	    background-size: cover;
     
 
 	}	
