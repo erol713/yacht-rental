@@ -495,7 +495,7 @@ footer #map {
 
 /* Media queries**/
 
-@media(max-width: 768px){
+@media screen and (max-width: 768px){
 	header #branding, 
 	header nav,
 	header nav a,
@@ -503,13 +503,21 @@ footer #map {
 	#newsletter h1,
 	#newsletter form,
 	#boxes .box, .box2, 
-	article#main-col,
 	aside #sidebar{
 		float:none;
 		text-align: center;
 		width:100%;
 		
 	
+	}
+
+	article#main-col{
+
+		float:none;
+		text-align: center;
+		max-width:90%;
+		border-left: none;
+		
 	}
 	
 
@@ -526,9 +534,9 @@ footer #map {
 	#slika{
 
 
-		background:url('photos/bckg1.jpg') ;
+		background:linear-gradient(rgba(0,0,0, 0.3), rgba(0,0,0,0.3)),url('photos/show3.jpg');
 		background-repeat: no-repeat;
-		background-size: 220% 32%;
+		background-size: 250% 32%;
 	
 
 	}	
