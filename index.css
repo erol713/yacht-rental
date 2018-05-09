@@ -7,8 +7,10 @@ body{
 }
 
 #slika{
-	background:url('photos/bckg1.jpg') -50px;
+
 	background-size: 1400px;
+	background: linear-gradient(rgba(0,0,0, 0.3), rgba(0,0,0,0.3)),url('photos/show3.jpg');
+
 	
 	background-attachment: fixed;
     background-position: center;
@@ -69,8 +71,8 @@ h1 a{
 
 h1 a:hover{
 
-	text-decoration: underline;
-	text-decoration-color:#36A6B4 ;
+	border-bottom: 1px solid #36A6B4;
+	padding-bottom: 5px;
 
 }
 
@@ -111,6 +113,7 @@ header #branding h1{
 }
 
 
+
 header nav{
 	float:right;
 	margin-top: 10px;
@@ -130,8 +133,9 @@ h1 .title{
 }
 
 nav a:hover{
-	color:#A9E2F3;
-	text-decoration: none;
+	
+	border-bottom: 1px solid #36A6B4;
+	padding-bottom: 5px;
 
 }
 
@@ -206,7 +210,7 @@ nav a:hover{
 .social-media{
 
 	position: fixed;
-  	top: 50%;
+  	top: 70%;
   	
   	-webkit-transform: translateY(-50%);
   	-ms-transform: translateY(-50%);
@@ -262,8 +266,9 @@ nav a:hover{
 
 /*newsletter**/
 #newsletter{
-	padding: 25px 0 15px  0;
+	padding: 25px 0 0px  0;
 	color:#ffffff;
+	margin-top: -50px;
 	
 	
 }
@@ -297,20 +302,66 @@ nav a:hover{
 
 
 
-#arrow img{
+#arrow {
 	
 	display: block;
+	margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
-	width:30px;
+	width:50px;
+	height: 50px;
+	transform:translate(50%, 50%);
+	border: 2px solid #fff;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 50px;
+	font-size: 40px;
+	color:#fff;
+	overflow: hidden;
 
 }
+
+#arrow i{
+
+	margin:0;
+	padding:0;
+	animation: animate 1.5s linear ;
+	animation-iteration-count: infinite;
+}
+	@keyframes animate{
+
+		0%
+		{
+			transform: translateY(-50px);
+			text-shadow: 0 50px 0 #fff;
+		}
+		20%
+		{
+			transform: translateY(0px);
+			text-shadow: 0 10px 0 #fff;
+		}
+		40%
+		{
+			transform: translateY(0px);
+			text-shadow: 0 20px 0 #fff;
+		}
+		60%
+		{
+			transform: translateY(0px);
+		}
+		100%
+		{
+			transform: translateY(0px);
+		}
+
+	}
 
 /*boxes**/
 
 #boxes{
-	margin-top: 80px;
+	margin-top: 200px;
 	margin-bottom: 80px;
+
 
 
 }
@@ -349,7 +400,8 @@ nav a:hover{
 aside#sidebar{
 	float:right;
 	width:30%;
-	margin-top: 80px;
+	margin-top: 71px;
+	text-align: justify;
 
 }
 aside#sidebar .quote input, aside#sidebar .quote textarea{
@@ -362,7 +414,16 @@ article#main-col{
 	width:65%;
 	color: #ffffff;
 	margin-top: 80px;
+	text-align: justify;
+	border:solid #036A81 3px;
+    padding: 10px 20px;
+    margin-bottom: 20px;
 
+}
+
+#main-col .dark{
+
+	margin-top: 60px;
 }
 
 }
@@ -377,11 +438,57 @@ ul#contact li{
 
 footer{
 	
-	margin--top:20px;
+	margin--top:5px;
 	color:#ffffff;
-	background-color: #36A6B4;
+	background-color: #08182B;
+	padding: 80px 0 5px 0;
+	
+}
+
+footer #copyright{
 	text-align: center;
-	padding: 1px;
+	margin-top: 20px;
+	padding-top: 50px;
+}
+
+#email{
+display: inline-block;
+margin-left: 50px;
+text-align: justify;
+margin-right: 20px;
+
+}
+
+footer #contact-footer {
+
+
+display: inline-block;
+
+text-align: justify;
+margin-right: 20px;
+
+
+}
+
+.red {color:red}
+.bold {font-weight: bold}
+.blue-bold{color:#36A6B4;font-weight: bold}
+
+#bank {
+
+
+	display: inline-block;
+	text-align: justify;
+
+
+
+}
+
+/* mapa */
+
+footer #map {
+	display: inline-block;
+	margin-right: 20px;
 	
 }
 
@@ -395,18 +502,25 @@ footer{
 	header nav li,
 	#newsletter h1,
 	#newsletter form,
-	
 	#boxes .box, .box2, 
 	article#main-col,
-	aside#sidebar{
+	aside #sidebar{
 		float:none;
 		text-align: center;
 		width:100%;
+		
+	
 	}
+	
 
 	#showcase h1{
 
 		font-size: 250%;
+	}
+
+	#showcase p{
+
+		font-size: 100%;
 	}
 
 	#slika{
@@ -418,6 +532,14 @@ footer{
 	
 
 	}	
+
+	#arrow{
+
+	    position: relative;
+	    left: -8%;	
+	    top:-365px;
+
+	}
 
 
 
@@ -510,11 +632,7 @@ footer{
 		margin-left: 15px;
 
 	}
-	#arrow img{
-
-		width:30px;
-		
-	}
+	
 	
 
 	.social-media a{
@@ -524,6 +642,30 @@ footer{
 
 	}
 
+	footer{
+		font-size: 70%;
+		margin: 0 auto;
+		width:100%;
+	}
+	footer #bank{
+		font-size: 100%;
+		position: relative;
+		left: 20%;
+	}
+	footer #contact-footer{
+		font-size: 120%;
+		position: relative;
+		left: 20%;
+	}
+	footer #map{
+
+		
+		position: relative;
+		left: 10%;
+	}
+	}
+
 
 }
+
 
