@@ -511,8 +511,9 @@ footer #map {
 		
 	
 	}
+
 	header nav li{
-		padding-left: 3px;
+		padding-left: 10px;
 		padding-right: 3px;
 		margin: 0 0;
 	}
@@ -683,7 +684,7 @@ footer #map {
 		padding-bottom: 10px;
 		font-size: 100%;
 		position: relative;
-		left: 5%;
+		left: 7%;
 	}
 	footer #bank{
 		font-size: 100%;
@@ -694,7 +695,7 @@ footer #map {
 	footer #contact-footer{
 		font-size: 100%;
 		position: relative;
-		left: 20%;
+		left: 21%;
 	}
 	footer #map{
 
@@ -703,8 +704,8 @@ footer #map {
 		left: 10%;
 
 	}
-	
-}
+	}
+
 
 }
 
