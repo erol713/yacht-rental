@@ -511,6 +511,18 @@ footer #map {
 		
 	
 	}
+	header nav li{
+		padding-left: 3px;
+		padding-right: 3px;
+		margin: 0 0;
+	}
+
+	.dropdown{
+		
+		width:50%;
+		display:inline;
+
+	}
 
 	article#main-col{
 
